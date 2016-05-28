@@ -53,7 +53,8 @@
 
 #define to_chat(target, message) target << message
 
-#define MAP_IMAGE_PATH "maps/[using_map.path]/"
+#define MAP_IMAGE_PATH "nano/images/[using_map.path]/"
 
 #define map_image_file_name(z_level) "[using_map.path]-[z_level].png"
 
+#define RANDOM_BLOOD_TYPE pick(4;"O-", 36;"O+", 3;"A-", 28;"A+", 1;"B-", 20;"B+", 1;"AB-", 5;"AB+")
